@@ -1,0 +1,25 @@
+.nav{
+    padding: 32px 0;
+    border-bottom: 1px solid #828282;
+    
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list__link{
+    text-decoration: none;
+}
+.list__link{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.list__link:hover{
+    color: #070707;
+}
+

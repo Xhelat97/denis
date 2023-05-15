@@ -1,0 +1,61 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 0 123px;
+}
+.contacts__title{
+    margin-bottom: 20px;
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.contacts__subtitle{
+    margin-bottom: 29px;
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+.contacts__button{
+    margin-bottom: 86px;
+    width: 180px;
+    height: 42px;
+    border-radius: 20px;
+    background: #070707;
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.contacts__button:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.contacts__social{
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    
+}
+.soc-link{
+    display: block;
+    margin-right: 60px;
+}
+.soc-link:last-child{
+    margin-right: 0;
+}
+.contacts__copyright{
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}

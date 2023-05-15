@@ -1,0 +1,10 @@
+@import url("/src/styles/fonts.css");
+@import url("/src/styles/config.css");
+@import url("/src/styles/container.css");
+@import url("/src/styles/header/nav.css");
+@import url("/src/styles/header/bio.css");
+@import url("/src/styles/main/about.css");
+@import url("/src/styles/main/skills.css");
+@import url("/src/styles/main/portfolio.css");
+@import url("/src/styles/footer/contacts.css");
+@import url("/src/styles/media.css");

@@ -1,0 +1,31 @@
+.portfolio{
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 112px 0 96px;
+}
+.portfolio__title{
+    margin-bottom: 47px;
+    font-size: 34px;
+}
+.portfolio-img{
+    margin-bottom: 42px;
+}
+.portfolio__link{
+    margin-bottom: 99px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #070707;
+}
+.portfolio__link:hover{
+    text-decoration: underline;
+}
+.portfolio__link:last-child{
+    margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+.bio__wrapper{
+    padding:40px 0 104px;
+}
+
+.bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bio__title{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 59px;
+}
+.bio__info{
+    font-size: 18px;
+}
+.denis-hide{
+    display: none;
+}

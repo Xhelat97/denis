@@ -1,0 +1,84 @@
+@media (max-width: 992px){
+.container{
+    max-width: 95%;
+}
+.denis-img{
+width: 100%;
+object-fit: cover;
+} 
+.skills__programms{
+    max-width: 95%;
+
+}
+.portfolio-img{
+    width: 100%;
+object-fit: cover;
+}
+}
+
+@media (max-width: 768px){
+.container{
+    max-width: 90%;
+}
+.denis-img{
+    width: 100%;
+    object-fit: cover;
+}
+.nav{
+    display: none;
+}
+.skills{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.skills__title{
+    margin-bottom: 30px;
+}
+.skills__subtitle{
+    margin-bottom: 30px;
+}
+
+.skills__programms{
+    flex-direction: column;
+    align-items: center;
+}
+.programms__item{
+    margin-right: 0;
+    margin-bottom: 50px;
+}
+.programms__item:last-child{
+    margin-bottom: 0;
+}
+}
+
+@media (max-width: 375px){
+    .bio{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    .bio__title{
+        margin-bottom: 23px;
+    }
+    .denis-img{
+        display: none;
+    }
+    .denis-hide{
+        display:block;
+        width: 100%;
+        object-fit: cover;
+    }
+    .text__container{
+        max-width: 95%;
+    }
+    .portfolio-img{
+    width: 85%;
+    object-fit: cover;
+}
+.contacts{
+    padding:80px 0 80px;
+}
+}
+
+

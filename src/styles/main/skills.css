@@ -1,0 +1,43 @@
+.skills {
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 91px 0 110px;
+}
+.skills__title{
+    font-size: 34px;
+}
+.programms__item {
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 166px;
+    margin-right: 90px;
+    position: relative;
+}
+.programms__item:last-child {
+    margin-right: 0;
+}
+.skills__programms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    margin-right: 9px;
+}
+.programm-name {
+    text-align: center;
+    font-size: 14px;
+    color: #828282;
+}
+.after-back{
+    position: absolute;
+    top: 4px;
+    z-index: -1;
+}
